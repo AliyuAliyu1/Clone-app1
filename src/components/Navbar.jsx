@@ -4,7 +4,7 @@ function Navbars (){
 return (
     <>
 <p>
-    truust
+    Shopping cart
 </p>
  
  </>  

@@ -2,7 +2,7 @@ function Headers (){
     return (
         <>
     
-        truust
+        Shopping cart 
     
      
      </>  

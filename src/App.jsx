@@ -8,7 +8,7 @@ import Headers from './components/Header';
 
 
 function App() {
-  const mark1= "Aliyu"
+  const mark1= "Items"
   const checker= false
   return (
      <>
@@ -16,7 +16,7 @@ function App() {
      <div className='Header-component'>
      <Headers/>
      <div className='app-container'>
-  <h1 className="conn"> Helloo {checker ? '' : mark1} </h1>
+  <h1 className="conn"> Product List {checker ? '' : mark1} </h1>
   <Navbar className='navbar' />
   
 

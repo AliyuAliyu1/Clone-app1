@@ -3,7 +3,7 @@ function Footers (){
         <>
     
         Footers
-        <h1>This is a h1 element</h1>
+        <h1>Copywrite</h1>
      
         
         
