@@ -15,6 +15,9 @@ body, h1, p {
 }
 body{
   background-color: #cdcee2;
+  
+ 
+  width: 100%;
 }
 .logo {
   height: 6em;
@@ -81,7 +84,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 20px; /* Add padding to footer */
-  background-color: #020202;
+  background-color: #090808;
   color: rgba(247, 247, 247, 0.932);
  
 
@@ -95,8 +98,11 @@ body{
   align-items: center;
   justify-content: center;
   padding: 2rem; /* Add padding to footer */
-  background-color: #020202;
+  background-color: #121212;
   color: rgba(247, 247, 247, 0.932);
+  width: 100%;
+  margin: 0 auto;
+  
 }
 
 /* Styling for Links */

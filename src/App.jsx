@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Footers from './components/Footer';
 import Headers from './components/Header';
+import ProductListComponent from './components/ProductList';
 
 
 
@@ -12,8 +13,11 @@ function App() {
   const checker= false
   return (
      <>
+     
 
      <div className='Header-component'>
+     
+      
      <Headers/>
      <div className='app-container'>
   <h1 className="conn"> Product List {checker ? '' : mark1} </h1>
@@ -24,9 +28,7 @@ function App() {
      </div>
     
 
-  <p>
-    hello
-  </p>
+     <ProductListComponent/>
   <p>
     hello
   </p>
