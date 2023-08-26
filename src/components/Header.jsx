@@ -1,4 +1,4 @@
-function Headers (){
+function Header (){
     return (
         <>
     
@@ -9,4 +9,4 @@ function Headers (){
     
     )
     }
-    export default Headers
+    export default Header

@@ -1,4 +1,4 @@
-function Footers (){
+function Footer (){
     return (
         <>
     
@@ -12,5 +12,5 @@ function Footers (){
     
     )
     }
-export default Footers
+export default Footer
     

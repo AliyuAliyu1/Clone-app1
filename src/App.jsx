@@ -1,8 +1,8 @@
-import Navbar from './components/Navbar'; 
+import Navbar from './components/Navbar';
 import './App.css';
-import Footers from './components/Footer';
-import Headers from './components/Header';
-import ProductListComponent from './components/ProductList';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import ProductList from './components/ProductList';
 
 
 
@@ -18,7 +18,7 @@ function App() {
      <div className='Header-component'>
      
       
-     <Headers/>
+     <Header/>
      <div className='app-container'>
   <h1 className="conn"> Product List {checker ? '' : mark1} </h1>
   <Navbar className='navbar' />
@@ -28,14 +28,14 @@ function App() {
      </div>
     
 
-     <ProductListComponent/>
-     <ProductListComponent/>
-     <ProductListComponent/>
-     <ProductListComponent/>
-     <ProductListComponent/>
-     <ProductListComponent/>
+     <ProductList/>
+     <ProductList/>
+     <ProductList/>
+     <ProductList/>
+     <ProductList/>
+     <ProductList/>
  <div className='map'>
- <Footers/>
+ <Footer/>
  </div>
 
 

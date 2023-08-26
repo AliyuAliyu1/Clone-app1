@@ -1,7 +1,7 @@
 
 import products from "./products";
 
-const ProductListComponent = () => { 
+const ProductList = () => { 
      return ( 
           <div> {products.map((product) => ( 
               <div key={product.id}> 
@@ -9,4 +9,4 @@ const ProductListComponent = () => {
                   <p>${product.price}</p> 
                </div> ))} 
           </div> ); }; 
-export default ProductListComponent;
+export default ProductList;

@@ -1,6 +1,6 @@
 
 
-function Navbars (){
+function Navbar (){
 return (
     <>
 <p>
@@ -11,6 +11,6 @@ return (
 
 )
 }
-export default Navbars
+export default Navbar
 
 
