@@ -8,12 +8,18 @@ import {
   } from "react-router-dom";
   import ErrorPage from './Pages/ErrorPage.jsx';
  
+import { ContactForm } from './Pages/ContactForm.jsx';
+ 
   const router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
       errorElement: <ErrorPage />,
     },
+    {
+        path: "contacts/:contactId",
+        element: <ContactForm/>,
+      },
   ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

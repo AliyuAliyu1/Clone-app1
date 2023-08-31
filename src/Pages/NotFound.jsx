@@ -6,7 +6,7 @@ function NotFound() {
         {/* <a href={`/contacts/1`}>Your Name</a> */}
   
         {/* <form method="post"> */}
-            <button onClick={() => window.location.href = `/contacts/1`} type="submit">Error Page</button>
+             <button onClick={() => window.location.href = `/Mark/1`} >Not Found</button> 
         {/* </form> */}
         
       </div>
