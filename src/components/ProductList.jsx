@@ -1,5 +1,5 @@
 
-import products from "./products";
+import products from "./data";
 
 const ProductList = () => { 
      return ( 
