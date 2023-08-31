@@ -20,7 +20,7 @@ function App() {
      <div className='Header-component'>
      
       
-     <Header/>
+     {/* <Header/> */}
      <div className='app-container'>
   <h1 className="conn"> Product List {checker ? '' : mark1} </h1>
   <div className='yes'>
@@ -32,7 +32,7 @@ function App() {
   </div>
 
 
-  <Navbar className='navbar' />
+  {/* <Navbar className='navbar' /> */}
 
   
 
