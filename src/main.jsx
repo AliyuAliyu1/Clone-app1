@@ -9,6 +9,7 @@ import {
   import ErrorPage from './Pages/ErrorPage.jsx';
  
 import { ContactForm } from './Pages/ContactForm.jsx';
+import { About1 } from './Pages/About.jsx';
  
   const router = createBrowserRouter([
     {
@@ -17,8 +18,12 @@ import { ContactForm } from './Pages/ContactForm.jsx';
       errorElement: <ErrorPage />,
     },
     {
-        path: "contacts/:contactId",
+        path: "contacts/1",
         element: <ContactForm/>,
+      },
+      {
+        path: "contacts/2",
+        element: <About1/>,
       },
   ]);
 
