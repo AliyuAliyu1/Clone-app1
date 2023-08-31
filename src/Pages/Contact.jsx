@@ -2,8 +2,10 @@ import React from 'react';
 
 function Contact() {
     return (
-      <div>
-       <button>Contact </button>
+      <div>  
+        <form method="post">
+            <button type="submit">Contact</button>
+        </form>
         
       </div>
     );

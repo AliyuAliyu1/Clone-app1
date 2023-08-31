@@ -7,9 +7,7 @@ import HomePage from './Pages/HomePage';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Login from './Pages/Login';
-
- 
-
+import NotFound from './Pages/NotFound';
 
 
 function App() {
@@ -30,6 +28,7 @@ function App() {
             <Contact/>
             <HomePage/>
             <Login/>
+            <NotFound/>
   </div>
 
 
