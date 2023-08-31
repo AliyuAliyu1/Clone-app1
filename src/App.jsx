@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ProductList from './components/ProductList';
+import HomePage from './Pages/HomePage';
 
 
 
@@ -22,12 +23,13 @@ function App() {
      <div className='app-container'>
   <h1 className="conn"> Product List {checker ? '' : mark1} </h1>
   <Navbar className='navbar' />
+
   
 
   </div>
      </div>
     
-
+     <HomePage/>
      <ProductList/>
      <ProductList/>
      <ProductList/>
