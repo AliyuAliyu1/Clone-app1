@@ -8,15 +8,24 @@ import {
   } from "react-router-dom";
   import ErrorPage from './Pages/ErrorPage.jsx';
  
-import { ContactForm } from './Pages/ContactForm.jsx';
+import { ContactForm } from './Pages/Contact.jsx';
 import { About1 } from './Pages/About.jsx';
+import HomePage from './Pages/HomePage.jsx';
+import { LoginForm } from './Pages/Login.jsx';
  
   const router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
       errorElement: <ErrorPage />,
+     
     },
+    {
+        path: "/",
+        element:<HomePage/>,
+        errorElement: <ErrorPage />,
+       
+      },
     {
         path: "contacts/1",
         element: <ContactForm/>,
@@ -24,6 +33,10 @@ import { About1 } from './Pages/About.jsx';
       {
         path: "contacts/2",
         element: <About1/>,
+      },
+      {
+        path: "contacts/3",
+        element: <LoginForm/>,
       },
   ]);
 

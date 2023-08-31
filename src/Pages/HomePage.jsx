@@ -5,7 +5,7 @@ import React from 'react';
 function HomePage() {
   return (
     <div>
-     <button>Home page </button>
+     <button onClick={() => window.location.href = `/`} >Home Page</button>
       
     </div>
   );
