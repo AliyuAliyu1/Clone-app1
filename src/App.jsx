@@ -4,6 +4,9 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import ProductList from './components/ProductList';
 import HomePage from './Pages/HomePage';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Login from './Pages/Login';
 
  
 
@@ -22,6 +25,14 @@ function App() {
      <Header/>
      <div className='app-container'>
   <h1 className="conn"> Product List {checker ? '' : mark1} </h1>
+  <div className='yes'>
+            <About/>
+            <Contact/>
+            <HomePage/>
+            <Login/>
+  </div>
+
+
   <Navbar className='navbar' />
 
   
@@ -29,7 +40,7 @@ function App() {
   </div>
      </div>
     
-     <HomePage/>
+     
      <ProductList/>
      <ProductList/>
      <ProductList/>

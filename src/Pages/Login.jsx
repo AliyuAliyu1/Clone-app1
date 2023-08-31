@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Contact() {
+function Login() {
     return (
       <div>
-       <button>Contact </button>
+       <button>Login </button>
         
       </div>
     );
   }
   
-  export default Contact;
+  export default Login;
